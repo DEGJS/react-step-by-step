@@ -29,3 +29,6 @@ into `10.`. Be sure to assign one of your collaborators, they will give you
 feedback.
 9. You can also check progress by running `npm test`. If all the tests pass,
    you've mastered the concepts and are ready to submit your final PR.
+
+## Get Rolling
+Ok. Let's begin. Checkout branch 10 to get started
