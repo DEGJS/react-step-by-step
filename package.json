@@ -17,6 +17,10 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
+	"preview": "markdown-preview README.md",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "markdown-preview": "^0.4.2"
   }
 }
