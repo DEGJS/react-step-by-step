@@ -18,7 +18,7 @@ When you are ready:
 2. Go to __Settings__ and click __Collaborators__
 3. Add Your Teammates as collaborators (this way they'll be able to give
    feedback)
-[!Collaborator](./training-assets/collaborator.png)
+![Collaborator](./training-assets/collaborator.png)
 4. Clone the repo locally
 5. Checkout the first branch `10`
 6. Make a new branch from that: `git branch 10-me`
