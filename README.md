@@ -31,3 +31,23 @@ feedback.
    you've mastered the concepts and are ready to submit your final PR.
 
 ## Welcome to Branch 10!
+
+Welcome to the first step. To begin make sure everything is working.
+
+- Run `npm install` to get all the dependencies loaded up.
+- Next, start up the app with `npm start`.
+
+You should see something like this:
+
+![Hello](./training-assets/10/hello.png)
+
+Next, make sure the tests are working.
+
+Run `npm test`.
+
+You should see something like this:
+
+![Tests](./training-assets/10/test-start.png)
+
+Type `a` to run all the tests. This is where things go a little crazy.
+
