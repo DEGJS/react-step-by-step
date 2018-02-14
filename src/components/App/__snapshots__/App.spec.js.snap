@@ -8,6 +8,9 @@ exports[`displays Hello world 1`] = `
     <h1>
       Hello, World
     </h1>
+    <h2>
+      Goodbye!
+    </h2>
   </header>
 </div>
 `;
