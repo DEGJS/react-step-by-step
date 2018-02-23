@@ -32,3 +32,7 @@ feedback.
 
 ## Get Rolling
 Ok. Let's begin. Checkout branch 10 to get started
+
+## Resources
+
+If you get stuck, check out some other [resources](/docs/resources.md)
