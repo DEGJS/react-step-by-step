@@ -2,11 +2,11 @@
 
 ## React Documentation
 
-[Official Documentation] (https://reactjs.org/docs/hello-world.html)
+[Official Documentation](https://reactjs.org/docs/hello-world.html)
 
 ## React Tutorials
 
-[Official Tutorial] (https://reactjs.org/tutorial/tutorial.html)
+[Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
 
 [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
