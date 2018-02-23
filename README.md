@@ -80,11 +80,11 @@ elements and a `<div>`.
 
 ![Index](./training-assets/10/index.png)
 
-Probably the strangest thing about React is that starts with nothing and builds
-everything. It doesn't manipulate HTML elements on a page, it creates all the
-elements, then puts them on the page. This is why it doesn't play nicely with a
-lot of CMS files that create markup server-side (although you can create React
-code server-side).
+Probably the strangest thing about React is that it starts with nothing (no
+markup, no page elements) and builds everything. It doesn't manipulate HTML
+elements on a page. It creates all the elements, then puts them on the page.
+This is why it doesn't play nicely with a lot of CMS files that create markup
+server-side (although you can create React code server-side).
 
 So where is all the HTML? The markup lives inside React files. It's actually
 some JavaScript code, but it looks pretty standard markup. Here's the code for
@@ -145,3 +145,57 @@ This all means that if you ever get lost when you are trying to find some code,
 you probably need to either drill down into child Components (like `App`) or
 go up into a parent component (in this case, the root
 component---`index.js`---which imports `App`).
+
+This also leads to your first test. If you open
+[src/components/App/App.spec.js](https://github.com/jsmapr1/react-step-by-step/blob/10/src/components/App/App.spec.js),
+you'll see the tests for the `App` component. The first test emulates loading
+the app onto a page.
+
+```javascript
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
+```
+
+That test should pass. The next test, however will fail:
+
+```javascript
+it('displays Hello world', () => {
+	const wrapper = shallow(<App />);
+	expect(wrapper).toMatchSnapshot();
+})
+```
+
+This test uses a library called [Enzyme](https://github.com/airbnb/enzyme) and a
+testing library called [Jest](https://facebook.github.io/jest/) to render html
+elements into a string format.
+
+The `shallow` method builds out a specific component. And `.toMatchSnapshot()`
+converts that to a string representation (you can see the string by going into
+the `__snapshots__` directory on the same level as the test).
+
+The test makes sure that the element that you will
+generate---`wrapper`---matches the element hope to
+create---`.toMatchSnapshot()`.
+
+If you run the test now, you should see a failing test that looks like this:
+
+![Fail](./training-assets/10/fail.png)
+
+This failing test is telling you that you want a component that will create a
+`<div>` with a `<h1>` contain 'Hello, World' and an `<h2>` containing
+'Goodbye!'.
+
+The red lines indicate that the `<h2>` is missing.
+
+Here's your first assignment, make that test pass. It should be fairly simple,
+all you need to do is change the JSX in `src/component/App/App.js`.
+
+Try it out and see if you can pass the test.
+
+If the tests passes, great work. You can move on to the next branch. Submit a
+Pull Request if you want. This one is rather simple, though, so it's not
+strictly necessary.
+
