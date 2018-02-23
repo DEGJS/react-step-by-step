@@ -32,7 +32,7 @@ feedback.
 
 ## Resources
 
-If you get stuck, check out some [resources](docs/Resources.md)
+If you get stuck, check out some [resources](docs/resources.md)
 
 ## Welcome to Branch 10!
 
