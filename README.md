@@ -30,6 +30,10 @@ feedback.
 9. You can also check progress by running `npm test`. If all the tests pass,
    you've mastered the concepts and are ready to submit your final PR.
 
+## Resources
+
+If you get stuck, check out some [resources](docs/Resources.md)
+
 ## Welcome to Branch 10!
 
 Welcome to the first step. To begin make sure everything is working.
