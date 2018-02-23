@@ -19,7 +19,7 @@ Basics](https://reactarmory.com/guides/learn-react-by-itself/react-basics)
 
 [Official Documentation](https://redux.js.org/#documentation)
 
-##Redux Tutorials
+## Redux Tutorials
 
 [Step by Step](https://github.com/happypoulp/redux-tutorial)
 
