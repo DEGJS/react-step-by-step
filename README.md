@@ -28,11 +28,11 @@ When you are ready:
 into `10.`. Be sure to assign one of your collaborators, they will give you
 feedback.
 9. You can also check progress by running `npm test`. If all the tests pass,
-   you've mastered the concepts and are ready to submit your final PR.
+   you're on the right track. Submit your final PR.
 
 ## Get Rolling
 Ok. Let's begin. Checkout branch 10 to get started
 
 ## Resources
 
-If you get stuck, check out some other [resources](/docs/resources.md)
+If you get stuck, check out some [resources](https://github.com/jsmapr1/react-step-by-step/wiki/Resource://github.com/jsmapr1/react-step-by-step/wiki/Resources)
