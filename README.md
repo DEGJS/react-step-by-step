@@ -32,7 +32,7 @@ feedback.
 
 ## Resources
 
-If you get stuck, check out some [resources](docs/resources.md)
+If you get stuck, check out some [resources](https://github.com/jsmapr1/react-step-by-step/wiki/Resource://github.com/jsmapr1/react-step-by-step/wiki/Resources)
 
 ## Welcome to Branch 10!
 
